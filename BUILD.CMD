@@ -1,0 +1,19 @@
+/* BUILD File for PMABOUT */
+
+COMP:
+  'COBOL PMABOUT.CBL; ans85'
+    IF RC \=0 THEN SIGNAL ERROR
+  'LINK PMABOUT.OBJ,PMABOUT.EXE,PMABOUT.MAP,lcobol+os2286,PMABOUT.DEF;'
+    IF RC \=0 THEN SIGNAL ERROR
+  'RC -r PMABOUT.RC'
+    IF RC \=0 THEN SIGNAL ERROR
+  'RC PMABOUT.RES PMABOUT.EXE'
+    IF RC \=0 THEN SIGNAL ERROR
+  SIGNAL ENDPROG
+ERROR:
+  SAY '********** Make ended with error!'
+  EXIT
+ENDPROG:
+  SAY '********** Make ended successfully!'
+  EXIT
+

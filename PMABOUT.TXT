@@ -1,0 +1,54 @@
+=====================================================================
+                     PMABOUT Package Version 1.0
+=====================================================================
+
+   The PMABOUT package is intended for demonstration purposes only.
+
+   No Support is provided for any of the programs in this package.
+   Additionally,
+
+    IBM has dedicated these programs to the public and claims no
+        rights and provides no warranties whatsoever.
+
+   furthermore,
+
+    IBM provides these programs "AS IS" without warranty of any
+        kind, either express or implied, including, but not
+        limited to, the implied warranties of merchantability
+        and fitness for a particular purpose.
+
+   The sample programs in this package have been compressed using
+   the PKZIP2 utility into the file PMABOUT.ZIP.  To unzip
+   this package type PKUNZIP PMABOUT on the OS/2 command line.
+
+   The following is a list of the files found in this package.
+
+   ===========================================
+   PMAbout Version 1.0
+   ===========================================
+   BUILD.CMD            Rexx make file
+   PMABOUT.MAK          Nmake utility file
+   PMABOUT.CBL          COBOL source code
+   PMABOUT.CPY          COBOL copy book
+   PMABOUT.OBJ          COBOL object module
+   PMABOUT.MAP          COBOL map file
+   PMABOUT.DEF          Module definition file
+   PMABOUT.H            Resource header file
+   PMABOUT.RC           Resource defintion file
+   PMABOUT.DLG          Dialog definition file
+   PMABOUT.RES          Resource file
+   PMABOUT.EXE          Executable module
+
+   PMAbout demonstrates the fundamental coding of all PM programs
+   written in COBOL.  It contains code to support processing of
+   messages from an applications message queue.  It demonstrates
+   how to code a dialog procedures and a message box.
+
+   This program is discussed in the January 1993 issue of the IBM
+   Personal Systems Technical Solutions. This program was written
+   at the IBM OS/2 Application Assistance Center by Chris Fierros.
+
+   PMABOUT was written using OS/2 2.0, the OS/2 2.0 Developer's Toolkit,
+   and Micro Focus COBOL Version 3.0.23.
+
+

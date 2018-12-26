@@ -1,0 +1,26 @@
+
+ PMABOUT
+
+ Start     Length     Name                   Class
+ 0001:0000 00B11H     PMABOUT_$C00           CODE
+ 0001:0B20 02584H     CSEG                   CODE
+ 0002:0000 00388H     PMABOUT_$D00           FAR_DATA
+ 0003:0000 0016BH     PMABOUT_$I             ICODE_DATA
+ 0004:0000 00080H     LPTSEG                 LPT_DATA
+ 0005:0000 001C5H     PMABOUT_$E             EXTCAL_DATA
+ 0006:0000 000B0H     PMABOUT_$H             CTRLBLK_DATA
+ 0007:0000 00200H     CBLRUDAT               CBL_DATA
+ 0008:0000 00002H     SHRSEG                 SHARE
+ 0009:0000 00014H     _DATA                  
+ 000A:0000 00006H     DUMMY_SEG              
+ 000B:0000 00002H     INTSEG                 DATA
+ 000C:0000 0000CH     MULSEG                 DATA
+ 000D:0000 00000H     INITTERM               INITTERM
+ 000D:0000 00010H     INITTERMX              INITTERM
+ 000E:0000 0A000H     STACK                  STACK
+
+ Origin   Group
+ 0009:0   DGROUP
+ 000D:0   FGROUP
+
+Program entry point at 0001:0B2C

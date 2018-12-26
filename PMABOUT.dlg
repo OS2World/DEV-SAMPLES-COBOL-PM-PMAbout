@@ -1,0 +1,19 @@
+DLGINCLUDE 1 "PMABOUT.H"
+
+DLGTEMPLATE DLG_About LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "About", DLG_About, 170, 110, 198, 74, FS_NOBYTEALIGN | 
+            FS_SCREENALIGN | WS_VISIBLE, FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        ICON            WND_MainWnd, WND_MainWnd, 14, 53, 20, 16, WS_GROUP
+        CTEXT           "PMABOUT Version 1.0", 1902, 50, 56, 92, 8, 
+                        DT_VCENTER
+        CTEXT           "by Chris Fierros (OS2AAC06 @ DALVM41B)", 1903, 4, 
+                        44, 186, 8, DT_VCENTER
+        CTEXT           "IBM OS/2 Application Assistance Center", 1904, 6, 
+                        34, 183, 8, DT_VCENTER
+        CTEXT           "A COBOL/PM Application", 1905, 6, 24, 183, 8, 
+                        DT_VCENTER
+        DEFPUSHBUTTON   "OK", DID_OK, 67, 6, 69, 13
+    END
+END

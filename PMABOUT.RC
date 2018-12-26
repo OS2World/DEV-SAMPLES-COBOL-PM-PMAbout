@@ -1,0 +1,34 @@
+/****************************************************************/
+/*      The COBOL/2 Sample Resource Script File (.RC)           */
+/****************************************************************/
+
+#include "OS2.H"
+#include "PMABOUT.H"
+
+Icon WND_MainWnd PMABOUT.ICO
+
+MENU WND_MainWnd PRELOAD
+BEGIN
+  SUBMENU  "~File",                  AB_File
+    BEGIN
+      MENUITEM "~New",               AB_New,,     MIA_DISABLED
+      MENUITEM "~Open...",           AB_Open,,    MIA_DISABLED
+      MENUITEM SEPARATOR
+      MENUITEM "~Save",              AB_Save,,    MIA_DISABLED
+      MENUITEM "Save ~as...",        AB_Saveas,,  MIA_DISABLED
+      MENUITEM SEPARATOR
+      MENUITEM "~Exit",              AB_Exit
+    END
+  SUBMENU  "~Help",                  AB_Help
+    BEGIN
+      MENUITEM "~Help for help...",  AB_Hhelp,,    MIA_DISABLED
+      MENUITEM "~Extended Help...",  AB_Xhelp,,    MIA_DISABLED
+      MENUITEM "~Keys help...",      AB_Khelp,,    MIA_DISABLED
+      MENUITEM "Help ~index...",     AB_Ihelp,,    MIA_DISABLED
+      MENUITEM SEPARATOR
+      MENUITEM "~About...",          AB_About
+    END
+END
+
+RCINCLUDE PMABOUT.DLG
+
